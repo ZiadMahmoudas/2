@@ -45,6 +45,15 @@
 
     <!-- CRITICAL INLINE CSS - Prevents FOUC (Flash of Unstyled Content) -->
     <style>
+        .close-search{
+        width: 68px;
+    height: 68px;
+}
+.close-search .bi-arrow-up{
+        font-size: 32px;
+    color: #fff;
+    font-weight: 900;
+}
 .form-group i {
     position: relative;
     font-size: 18px;
@@ -1755,8 +1764,8 @@
 
 <!-- Search Popup -->
 <div class="search-popup">
-    <button class="close-search style-two" aria-label="canel search"><span class="flaticon-cancel-1"></span></button>
-    <button class="close-search" aria-label="close search dialog"><span class="flaticon-up-arrow"></span></button>
+    <button class="close-search style-two" aria-label="canel search"><i class="bi bi-x-lg"></i></button>
+    <button class="close-search" aria-label="close search dialog"><i class="bi bi-arrow-up"></i></button>
     <form method="post" action="https://nctl.scu.eg/search">
         <input type="hidden" name="_token" value="kIFkoTgpP3WzO6SxN76mBvSL2OI9v2Qk2Xogx4E5" autocomplete="off">        <div class="form-group">
             <input type="search" name="search" value="" placeholder="ابحث عن ..." required="">
