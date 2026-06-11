@@ -9,7 +9,7 @@
             content="width=device-width, initial-scale=1.0, minimal-ui">
 
         <meta name="csrf-token"
-            content="kIFkoTgpP3WzO6SxN76mBvSL2OI9v2Qk2Xogx4E5">
+            content="XSgtBZ5rM8MG7ochFMt0ul0LxucNanVLbtooBllu">
         <meta name="description" content="المجلس الأعلى للجامعات">
         <meta name="keywords"
             content="التدريب ,الإعداد ,القيادة ,الاعتماد ,المدربين ,الجامعات ,المراكز ,الترخيص والحكومة ,الخاصة ,المجلس الأعلى للجامعات">
@@ -18,17 +18,16 @@
         <meta property="og:title"
             content="المركز القومي للتدريب وإعداد القيادات" />
         <meta property="og:description"
-            content="دليل المدربين المعتمدين | المركز القومي للتدريب وإعداد القيادات" />
+            content="ملف المدرب محمد محمد عبد السلام هلالي | المركز القومي للتدريب وإعداد القيادات" />
         <meta property="og:image"
             content="https://nctl.scu.eg/assets/template/images/footer-logo-3.png" />
 
-        <title>دليل المدربين المعتمدين | المركز القومي للتدريب وإعداد
+        <title>ملف المدرب محمد محمد عبد السلام هلالي | المركز القومي للتدريب وإعداد
             القيادات</title>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
         <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
         <!-- Preconnect for critical resources -->
         <link rel="preconnect" href="https://cdn.jsdelivr.net">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -69,7 +68,9 @@
         <!-- CRITICAL INLINE CSS - Prevents FOUC (Flash of Unstyled Content) -->
         <style>
         /* === AGGRESSIVE FOUC PREVENTION === */
-.form-group i {
+
+        /* Reset all elements */
+        .form-group i {
     position: relative;
     font-size: 18px;
     top: 41px;
@@ -81,7 +82,6 @@
     left: -10%;
     top: -0px;
 }
-        /* Reset all elements */
         * {
             margin: 0;
             padding: 0;
@@ -557,48 +557,6 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
             z-index: 10;
         }
-
-
-        /* NOTE: This HTML fragment requires Bootstrap 4 CSS/JS to be loaded in the main page. */
-
-        /* Custom Styles and Bootstrap Overrides for Training Centers Section */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        /*
-|--------------------------------------------------------------------------
-| أنماط بطاقات المراكز المعتمدة (Mentors/Centers List)
-|--------------------------------------------------------------------------
-*/
-
         /* 1. التنسيق الأساسي للبطاقة (inner-box) */
         .mentor-block .inner-box {
             position: relative;
@@ -1159,7 +1117,7 @@
                                     <div class="text">
 
                                         <a href="https://nctl.scu.eg/register">
-                                            <i class="bi bi-person-plus"></i>
+                                            <i class="fa fa-user-plus"></i>
                                             إنشاء حساب
                                         </a>
 
@@ -1279,7 +1237,8 @@
                                             <li class="dropdown ">
                                                 <a href="#">عن المركز</a>
                                                 <ul>
-                                                    <li><a href="/about.html">من
+                                                    <li><a
+                                                            href="/about.html">من
                                                             نحن</a></li>
                                                     <li class="dropdown"><a
                                                             href="#">إدارة
@@ -1298,7 +1257,7 @@
                                                         </ul>
                                                     </li>
                                                     <li><a
-                                                            href="/faq.html">الأسئلة
+                                                            href="https://nctl.scu.eg/faq">الأسئلة
                                                             الشائعة</a></li>
                                                 </ul>
                                             </li>
@@ -1306,7 +1265,7 @@
                                                 <a href="#">الخدمات الالكترونية
                                                 </a>
                                                 <ul>
-                                                    <!-- <li><a href="/about.html">من نحن</a></li> -->
+                                                    <!-- <li><a href="https://nctl.scu.eg/about">من نحن</a></li> -->
                                                     <li class="dropdown"><a
                                                             href="#"> الاتحاق
                                                             بالدورات</a>
@@ -1407,9 +1366,7 @@
                                             class="icon fa fa-search"></span></div>
 
                                     <div
-                                        class="nav-btn navSidebar-button transition-300ms"><i
-                                            class="fa fa-list"
-                                            aria-hidden="true"></i></div>
+                                        class="nav-btn navSidebar-button transition-300ms"><i class="fa fa-list" aria-hidden="true"></i></div>
 
                                 </div>
                             </div>
@@ -1421,7 +1378,7 @@
                     <div class="sticky-header">
                         <div class="auto-container clearfix">
                             <div class="logo pull-right">
-                                <a href="https://nctl.scu.eg">
+                                <a href="/index.html">
                                     <img
                                         src="https://nctl.scu.eg/assets/template/images/logo-small.webp"
                                         width="287" height="84"
@@ -1434,9 +1391,8 @@
 
                                 <nav class="main-menu">
                                 </nav>
-                                <div class="mobile-nav-toggler"><i
-                                        class="fa fa-list"
-                                        aria-hidden="true"></i></div>
+                                <div class="mobile-nav-toggler"><span
+                                        class="icon flaticon-menu-1"></span></div>
 
                             </div>
                         </div>
@@ -1450,7 +1406,7 @@
 
                         <nav class="menu-box">
                             <div class="nav-logo">
-                                <a href="https://nctl.scu.eg">
+                                <a href="/index.html">
                                     <img
                                         src="https://nctl.scu.eg/assets/template/images/logo.webp"
                                         width="263" height="59"
@@ -1582,1218 +1538,179 @@
                     style="background-image: url(https://nctl.scu.eg/assets/template/images/background/1.jpg)">
                     <div class="auto-container">
                         <div class="content">
-                            <div class="text">قائمة</div>
-                            <h1>المدربين المعتمدين</h1>
+                            <div class="text">ملف</div>
+                            <h1>المدرب</h1>
                         </div>
                         <div class="breadcrumb-outer">
                             <ul class="page-breadcrumb">
-                                <li><a href="/index.html">الرئيسية</a></li>
-                                <li>المدربين</li>
+                                <li><a
+                                        href="/index.html">الرئيسية</a></li>
+                                <li>نبذة عن المدرب</li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <!-- End Page Title Section -->
 
-                <!-- Mentors Page Section -->
-                <section class="mentors-page-section">
+                <!-- Sidebar Page Container -->
+                <div class="sidebar-page-container left-sidebar">
                     <div class="auto-container">
                         <div class="row clearfix">
-                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                <div class="trainer-search" style="
-            background: #ffffff; 
-            padding: 20px; 
-            border-radius: 15px; 
-            box-shadow: 0 8px 25px rgba(0,0,0,0.05); 
-            border: 1px solid #eee;
-            direction: rtl;
-        ">
-                                    <div
-                                        style="display: flex; align-items: stretch; width: 100%; position: relative;">
 
-                                        <div style="
-                    position: absolute;
-                    right: 15px;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    color: #619647;
-                    z-index: 5;
-                    pointer-events: none; /* Allows clicking " through" the icon
-                                            to the input */ ">
+                            <div class="col-lg-1 col-md-12 col-sm-12"></div>
+                            <!-- Sidebar Side -->
+                            <div
+                                class="sidebar-side col-lg-3 col-md-12 col-sm-12">
+                                <aside class="sidebar sticky-top">
 
+                                    <!-- Mentor Widget -->
+                                    <div class="mentor-widget">
+                                        <div class="inner-box">
+                                            <div class="image">
+                                                <div class="image">
+                                                    <img
+                                                        loading="lazy"
+                                                        class="transition-500ms"
+                                                        src="../../images/Mohammed-Mohammed.webp"
+                                                        alt="../../images/Mohammed-Mohammed.webp"
+                                                </div>
+                                            </div>
+                                            <div class="lower-content">
+                                                <h5>محمد محمد عبد السلام هلالي</h5>
+                                                <div class="text">
+                                                    مدرس تكنولوجيا التعليم
+                                                    والحاسب الالي
+                                                </div>
+                                                <ul class="contact-list">
+                                                    <li>
+                                                        <span
+                                                            class="icon fa fa-envelope"></span>
+                                                        <a
+                                                            href="mailto:mhelaly@gmail.com">
+                                                            mhelaly@gmail.com
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <span
+                                                            class="icon fa fa-phone"></span>
+                                                        <a
+                                                            href="tel:+201226261126"
+                                                            style="unicode-bidi: plaintext;">
+                                                            +201226261126
+                                                        </a>
+                                                    </li>
+                                                    <!-- <div
+                                                        class="contact-list-social-media">
+                                                        <li>
+                                                            <span
+                                                                class="icon fa fa-facebook-square"></span>
+                                                            <a
+                                                                href="https://www.facebook.com/https://www.facebook.com/share/1BhmgUiTJu/?mibextid=wwXIfr">
+                                                                Facebook.com
+                                                            </a>
+                                                        </li>
+
+                                                        <li>
+                                                            <span
+                                                                class="icon fa fa-linkedin-square"></span>
+                                                            <a
+                                                                href="https://www.linkedin.com/in/https://www.linkedin.com/in/linda-nabil-795ab611b?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app">
+                                                                Linkedin.com
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                        </div> -->
+
+                                                        <li>
+
+                                                            نهاية الاعتماد:
+                                                            2029-01-02
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-
-                                        <input
-                                            type=" text"
-                                            placeholder="ابحث برقم المدرب أو اسم المدرب"
-                                            name="trainer_search_key"
-                                            id="trainer_search_key"
-                                            style="
-                        flex-grow: 1;
-                        height: 42px;
-                        padding: 0 40px 0 15px; /* 40px padding-right to clear the icon */
-                        border-radius: 0 10px 10px 0;
-                        border: 2px solid #f1f3f5;
-                        border-left: none;
-                        background-color: #f8f9fa;
-                        outline: none;
-                        font-size: 14px;
-                        color: #333;
-                        text-align: right;
-                        box-sizing: border-box;
-                        transition: all 0.3s ease;
-                    "
-                                            onfocus="this.style.borderColor='#619647'; this.style.backgroundColor='#ffffff';"
-                                            onblur="this.style.borderColor='#f1f3f5'; this.style.backgroundColor='#f8f9fa';">
-
-                                        <button
-                                            id="trainer-filter"
-                                            type="button"
-                                            style="
-        background: #619647;
-        color: white;
-        border: 2px solid #619647;
-        height: 42px;
-        padding: 0 25px;
-        border-radius: 10px 0 0 10px;
-        font-weight: 600;
-        font-size: 14px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        /* This creates the space between icon and text */
-        gap: 10px; 
-        box-sizing: border-box;
-        white-space: nowrap;
-        transition: opacity 0.3s ease;
-    "
-                                            onmouseover="this.style.opacity='0.85';"
-                                            onmouseout="this.style.opacity='1';">
-
-                                            <i class="fa fa-search"></i>
-                                            <span>ابحث</span>
-
-                                        </button>
                                     </div>
-                                </div>
+                                    <!-- Mentor Widget -->
+
+                                    <!-- Award Widget -->
+                                    <div class="award-widget">
+                                        <div class="inner-box">
+                                            <div
+                                                class="single-item-carousel owl-carousel owl-theme">
+                                                <div class="slide">
+                                                    <div class="image">
+                                                        <a
+                                                            href="https://nctl.scu.eg/assets/uploads/temp_certificates/2601175.jpg"
+                                                            class="lightbox-image">
+                                                            <img loading="lazy"
+                                                                class="transition-500ms"
+                                                                src="https://nctl.scu.eg/assets/uploads/temp_certificates/2601175.jpg"
+                                                                type="image/jpg"
+                                                                alt="محمد محمد عبد السلام هلالي" />
+
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="slide">
+                                                    <div class="image">
+                                                        <a
+                                                            href="https://nctl.scu.eg/assets/uploads/cards/2601175.png"
+                                                            class="lightbox-image">
+
+                                                            <img
+                                                                loading="lazy"
+                                                                class="transition-500ms"
+                                                                src="https://nctl.scu.eg/assets/uploads/cards/2601175.png"
+                                                                type="image/png" />
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Award Widget -->
+
+                                </aside>
                             </div>
-                        </div>
-                        <div class="row clearfix" id="profile-list-container">
-
-                            <!-- Mentor Block -->
-
+                            <div class="col-lg-1 col-md-12 col-sm-12"></div>
+                            <!-- Content Side -->
                             <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="./profile/mohamedmohamed.html">
-                                            <picture>
-                                                <source
-                                                    srcset="/images/Mohammed-Mohammed.webp"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="محمد محمد عبد السلام هلالي" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="./profile/mohamedmohamed.html">
-                                                محمد محمد عبد السلام هلالي
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/"
-                                                    class="fa fa-facebook-f disabled-link"></a></li>
-                                            <li><a href="https://twitter.com/"
-                                                    class="fa fa-twitter disabled-link"></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/"
-                                                    class="fa fa-linkedin disabled-link"></a></li>
-
-                                            <li><a
-                                                    href="mailto:rehan.shaalan@hotmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
+                                class="content-side col-lg-6 col-md-12 col-sm-12">
+                                <!-- Course Tag -->
+                                <div class="course-tag">
+                                    <div class="clearfix">
+                                        <div class="pull-right">
+                                            <h5>نبذة عن المدرب</h5>
+                                            <p class="text-justify"
+                                                style="font-size: 18px; line-height: 45px">
+                                            - حاصل على ماجستير علوم البيانات<br>
+- محاضر معتمد من المعهد القومي للتدريب و إعداد القيادات.<br>
+- مدرب معتمد من المجلس الأعلي بالجامعات.<br>
+- مدرب حاسب آلي بمركز إعداد القاده بالشركة القابضة لكهرباء مصر التابعة لوزارة الطاقة والكهرباء بجمهورية مصر العربية.<br>
+- مدرب حاسب آلي بشركة ميكروسوفت و عدة شركاء ذهبيين معها بجمهورية مصر العربية.<br>
+- مدرب حاسب آلي بمركز التطوير التكنولوجي التابع لوزارة التربية و التعليم بجمهورية مصر العربية.<br>
+- مدرب حاسب آلي بالبنك الأهلي المصري.<br>
+- مدرب أونلاين.
+                                            </p>
+                                        </div>
+                                        <div class="pull-left">
+                                            <div
+                                                class="icon "><i class="fa-solid fa-book"></i></div>
+                                        </div>
                                     </div>
                                 </div>
+
                             </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2602230">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2602230.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="زينب أحمد أحمد محمد" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2602230">
-                                                زينب أحمد أحمد محمد
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/https://www.facebook.com/https://www.facebook.com/share/1AU6CMsRVW/"
-                                                    class="fa fa-facebook-f "></a></li>
-                                            <li><a
-                                                    href="https://twitter.com/https://twitter.com/"
-                                                    class="fa fa-twitter "></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/https://www.linkedin.com/in/https://www.linkedin.com/in/zainab-ahmed-30341a209"
-                                                    class="fa fa-linkedin "></a></li>
-
-                                            <li><a
-                                                    href="mailto:zainabahmedam@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2602233">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2602233.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="محمد صلاح يوسف عبد المنعم" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2602233">
-                                                محمد صلاح يوسف عبد المنعم
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/"
-                                                    class="fa fa-facebook-f disabled-link"></a></li>
-                                            <li><a href="https://twitter.com/"
-                                                    class="fa fa-twitter disabled-link"></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/"
-                                                    class="fa fa-linkedin disabled-link"></a></li>
-
-                                            <li><a
-                                                    href="mailto:mohamedsalahmody132@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2602235">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2602235.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="نهى صلاح ابراهيم عبد الرازق" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2602235">
-                                                نهى صلاح ابراهيم عبد الرازق
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/https://www.facebook.com/"
-                                                    class="fa fa-facebook-f "></a></li>
-                                            <li><a
-                                                    href="https://twitter.com/https://twitter.com/"
-                                                    class="fa fa-twitter "></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/https://www.linkedin.com/in/"
-                                                    class="fa fa-linkedin "></a></li>
-
-                                            <li><a
-                                                    href="mailto:nohakhatapp@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2602238">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2602238.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="هيكل محمد حسن محمد" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2602238">
-                                                هيكل محمد حسن محمد
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/https://www.facebook.com/share/1Crf5q6okX/"
-                                                    class="fa fa-facebook-f "></a></li>
-                                            <li><a href="https://twitter.com/"
-                                                    class="fa fa-twitter disabled-link"></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/www.linkedin.com/in/heikal-alrawy-6a8251209"
-                                                    class="fa fa-linkedin "></a></li>
-
-                                            <li><a
-                                                    href="mailto:heikalalrawy19@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2602232">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2602232.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="محمد أحمد محمود عبد العال" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2602232">
-                                                محمد أحمد محمود عبد العال
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/"
-                                                    class="fa fa-facebook-f disabled-link"></a></li>
-                                            <li><a href="https://twitter.com/"
-                                                    class="fa fa-twitter disabled-link"></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/www.linkedin.com/in/mohamad-a-abdelaal-b1553268"
-                                                    class="fa fa-linkedin "></a></li>
-
-                                            <li><a
-                                                    href="mailto:mohamadabdelaal1@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2602228">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2602228.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="رونق محسن عبدالمطلب السيد" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2602228">
-                                                رونق محسن عبدالمطلب السيد
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/Rawnaqmohsen"
-                                                    class="fa fa-facebook-f "></a></li>
-                                            <li><a href="https://twitter.com/"
-                                                    class="fa fa-twitter disabled-link"></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/"
-                                                    class="fa fa-linkedin disabled-link"></a></li>
-
-                                            <li><a
-                                                    href="mailto:mohsenrwnk@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2602239">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2602239.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="هينار عادل صبحى محارم" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2602239">
-                                                هينار عادل صبحى محارم
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/https://www.facebook.com/share/17pYXTRFQK/"
-                                                    class="fa fa-facebook-f "></a></li>
-                                            <li><a href="https://twitter.com/"
-                                                    class="fa fa-twitter disabled-link"></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/https://www.linkedin.com/in/dr-henar-adel-maharem-751266106"
-                                                    class="fa fa-linkedin "></a></li>
-
-                                            <li><a
-                                                    href="mailto:henarmaharem@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2602224">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2602224.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="أسامة وجدى وديع ونيس" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2602224">
-                                                أسامة وجدى وديع ونيس
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/dr.osamawagdi"
-                                                    class="fa fa-facebook-f "></a></li>
-                                            <li><a
-                                                    href="https://twitter.com/osamawagdiw"
-                                                    class="fa fa-twitter "></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/osama-wagdi-45635930"
-                                                    class="fa fa-linkedin "></a></li>
-
-                                            <li><a
-                                                    href="mailto:osamawagdi_ta@yahoo.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2602223">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2602223.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="احمد محمد كمال الدين محمد عمر" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2602223">
-                                                احمد محمد كمال الدين محمد عمر
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/"
-                                                    class="fa fa-facebook-f disabled-link"></a></li>
-                                            <li><a href="https://twitter.com/"
-                                                    class="fa fa-twitter disabled-link"></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/"
-                                                    class="fa fa-linkedin disabled-link"></a></li>
-
-                                            <li><a
-                                                    href="mailto:kembell2192004@yahoo.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2602237">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2602237.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="هيثم محمد عبدالحكيم عبدالرحيم" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2602237">
-                                                هيثم محمد عبدالحكيم عبدالرحيم
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/https://www.facebook.com/share/1apmiVzhDn/"
-                                                    class="fa fa-facebook-f "></a></li>
-                                            <li><a
-                                                    href="https://twitter.com/https://x.com/hithamamar1"
-                                                    class="fa fa-twitter "></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/"
-                                                    class="fa fa-linkedin disabled-link"></a></li>
-
-                                            <li><a
-                                                    href="mailto:dr.hitham2018@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2602227">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2602227.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="خديجة صديق أحمد عيسى" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2602227">
-                                                خديجة صديق أحمد عيسى
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/"
-                                                    class="fa fa-facebook-f disabled-link"></a></li>
-                                            <li><a href="https://twitter.com/"
-                                                    class="fa fa-twitter disabled-link"></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/"
-                                                    class="fa fa-linkedin disabled-link"></a></li>
-
-                                            <li><a
-                                                    href="mailto:dega201680@yahoo.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2602234">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2602234.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="محمد كامل الدين محمود" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2602234">
-                                                محمد كامل الدين محمود
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/mohammedkamelelgaher/"
-                                                    class="fa fa-facebook-f "></a></li>
-                                            <li><a
-                                                    href="https://twitter.com/MohamedKamelElg"
-                                                    class="fa fa-twitter "></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/mohamed-elgaher-53a741160/"
-                                                    class="fa fa-linkedin "></a></li>
-
-                                            <li><a
-                                                    href="mailto:mohamedelgaher@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2602231">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2602231.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="شعبان علم الدين شوقي" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2602231">
-                                                شعبان علم الدين شوقي
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/https://www.facebook.com/https://www.facebook.com/shabanalameldin?mibextid=ZbWKwL"
-                                                    class="fa fa-facebook-f "></a></li>
-                                            <li><a
-                                                    href="https://twitter.com/https://twitter.com/https://x.com/Shabanalameldin?t=c5eFXcKUwFZmZ5xNbPFbiA&amp;s=09"
-                                                    class="fa fa-twitter "></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/https://www.linkedin.com/in/https://www.linkedin.com/in/%D8%B4%D8%B9%D8%A8%D8%A7%D9%86-%D8%B9%D9%84%D9%85-%D8%A7%D9%84%D8%AF%D9%8A%D9%86-293704167?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app"
-                                                    class="fa fa-linkedin "></a></li>
-
-                                            <li><a
-                                                    href="mailto:shabanalameldine@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2601220">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2601220.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="نورا السيد علي مصطفى" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2601220">
-                                                نورا السيد علي مصطفى
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/https://www.facebook.com/"
-                                                    class="fa fa-facebook-f "></a></li>
-                                            <li><a
-                                                    href="https://twitter.com/https://twitter.com/"
-                                                    class="fa fa-twitter "></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/https://www.linkedin.com/in/"
-                                                    class="fa fa-linkedin "></a></li>
-
-                                            <li><a
-                                                    href="mailto:noura.mostafa@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2601218">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2601218.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="امل عادل نبيه حسن الدسوقي" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2601218">
-                                                امل عادل نبيه حسن الدسوقي
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/https://www.facebook.com/https://www.facebook.com/amal.nabih.2025"
-                                                    class="fa fa-facebook-f "></a></li>
-                                            <li><a
-                                                    href="https://twitter.com/https://twitter.com/"
-                                                    class="fa fa-twitter "></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/https://www.linkedin.com/in/"
-                                                    class="fa fa-linkedin "></a></li>
-
-                                            <li><a
-                                                    href="mailto:amal.eldesouky@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2601217">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2601217.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="أسماء خميس أمين مرسي" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2601217">
-                                                أسماء خميس أمين مرسي
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/"
-                                                    class="fa fa-facebook-f disabled-link"></a></li>
-                                            <li><a href="https://twitter.com/"
-                                                    class="fa fa-twitter disabled-link"></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/"
-                                                    class="fa fa-linkedin disabled-link"></a></li>
-
-                                            <li><a
-                                                    href="mailto:asmaa.morsi@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2601199">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2601199.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="امال فؤاد عبداللطيف الوليلي" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2601199">
-                                                امال فؤاد عبداللطيف الوليلي
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/https://www.facebook.com/share/1Dd73pCSka/"
-                                                    class="fa fa-facebook-f "></a></li>
-                                            <li><a href="https://twitter.com/"
-                                                    class="fa fa-twitter disabled-link"></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/https://www.linkedin.com/in/amal-fouad-5851097b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BCOB1y%2F26Q5Sh%2Ben%2BxrXKHQ%3D%3D"
-                                                    class="fa fa-linkedin "></a></li>
-
-                                            <li><a
-                                                    href="mailto:amal.elwaleely@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2601198">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2601198.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="الشيماء نبيل خليل ندا" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2601198">
-                                                الشيماء نبيل خليل ندا
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/https://www.facebook.com/"
-                                                    class="fa fa-facebook-f "></a></li>
-                                            <li><a
-                                                    href="https://twitter.com/https://twitter.com/"
-                                                    class="fa fa-twitter "></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/https://www.linkedin.com/in/"
-                                                    class="fa fa-linkedin "></a></li>
-
-                                            <li><a
-                                                    href="mailto:elshimaa.nada@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="mentor-block col-lg-3 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a
-                                            href="https://nctl.scu.eg/trainer/profile/2601211">
-                                            <picture>
-                                                <source
-                                                    srcset="https://nctl.scu.eg/assets/uploads/formal-profiles/2601211.jpg"
-                                                    type="image/jpg">
-                                                <img
-                                                    loading="lazy"
-                                                    class="transition-500ms"
-                                                    src="https://nctl.scu.eg/assets/uploads/profile/default-avatar.jpg"
-                                                    alt="وليد ابراهيم عبدالله ابراهيم" />
-                                            </picture>
-                                        </a>
-                                        <div class="designation">مدرب
-                                            معتمد</div>
-                                    </div>
-                                    <div class="lower-content">
-                                        <h5>
-                                            <a style="white-space: nowrap;"
-                                                href="https://nctl.scu.eg/trainer/profile/2601211">
-                                                وليد ابراهيم عبدالله ابراهيم
-                                            </a>
-                                        </h5>
-                                        <!-- Social Box -->
-                                        <ul class="social-box">
-                                            <li><a
-                                                    href="https://www.facebook.com/https://www.facebook.com/dr.waled.vip"
-                                                    class="fa fa-facebook-f "></a></li>
-                                            <li><a href="https://twitter.com/"
-                                                    class="fa fa-twitter disabled-link"></a></li>
-                                            <li><a
-                                                    href="https://www.linkedin.com/in/https://www.linkedin.com/in/dr-waleed-ibrahim-6b05a2225/"
-                                                    class="fa fa-linkedin "></a></li>
-
-                                            <li><a
-                                                    href="mailto:drwaled319@gmail.com"
-                                                    class="fa fa-envelope  "></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="col-lg-1 col-md-12 col-sm-12"></div>
 
                         </div>
                     </div>
-                    <div id="pagination-wrapper"
-                        class="d-flex justify-content-center"> <nav>
-                            <ul class="pagination">
-
-                                <li class="page-item disabled"
-                                    aria-disabled="true"
-                                    aria-label="&laquo; سابق">
-                                    <span class="page-link"
-                                        aria-hidden="true">&lsaquo;</span>
-                                </li>
-
-                                <li class="page-item active"
-                                    aria-current="page"><span
-                                        class="page-link">1</span></li>
-                                <li class="page-item"><a class="page-link"
-                                        href="/trainer/list.html?page=2">2</a></li>
-                                <li class="page-item"><a class="page-link"
-                                        href="/trainer/list.html?page=3">3</a></li>
-                                <li class="page-item"><a class="page-link"
-                                        href="/trainer/list.html?page=4">4</a></li>
-                                <li class="page-item"><a class="page-link"
-                                        href="/trainer/list.html?page=5">5</a></li>
-                                <li class="page-item"><a class="page-link"
-                                        href="/trainer/list.html?page=6">6</a></li>
-                                <li class="page-item"><a class="page-link"
-                                        href="/trainer/list.html?page=7">7</a></li>
-                                <li class="page-item"><a class="page-link"
-                                        href="/trainer/list.html?page=8">8</a></li>
-                                <li class="page-item"><a class="page-link"
-                                        href="/trainer/list.html?page=9">9</a></li>
-                                <li class="page-item"><a class="page-link"
-                                        href="/trainer/list.html?page=10">10</a></li>
-
-                                <li class="page-item disabled"
-                                    aria-disabled="true"><span
-                                        class="page-link">...</span></li>
-
-                                <li class="page-item"><a class="page-link"
-                                        href="/trainer/list.html?page=21">21</a></li>
-                                <li class="page-item"><a class="page-link"
-                                        href="/trainer/list.html?page=22">22</a></li>
-
-                                <li class="page-item">
-                                    <a class="page-link"
-                                        href="/trainer/list.html?page=2"
-                                        rel="next"
-                                        aria-label="التالي &raquo;">&rsaquo;</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </section>
-
+                </div>
                 <!-- End Mentors Page Section -->
 
-                <!--=====================================================================-->
-                <script>
-    $(document).ready(function(e) {
-        /* Start: Filtering */
-        const paginationWrapper = document.getElementById('pagination-wrapper');
-        $("#trainer-filter").click(function() {
-            var trainer_search_key = $("input[name='trainer_search_key']").val();
-            var filter_result = "";
-
-            if (trainer_search_key.length > 0) {
-
-                // Hide pagination when user starts searching
-                paginationWrapper.style.setProperty('display', 'none', 'important');
-            } else {
-
-                // Show pagination again if the search input is emptied
-                paginationWrapper.style.setProperty('display', 'flex', 'important');
-            }
-
-            $.ajax({
-                url: "https://nctl.scu.eg/trainer/search",
-                type: "POST",
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                },
-                data: {
-                    trainer_search_key: trainer_search_key
-                },
-                dataType: 'json',
-                success: function(data) {
-                    if (data.length > 0) {
-                        $("#profile-list-container").fadeOut(0);
-                        $("#profile-list-container").empty();
-
-                        // Loop
-                        $.each(data, function(index, trainer) {
-                            filter_result += ('<div class="mentor-block col-lg-3 col-md-6 col-sm-12">');
-                            filter_result += ('<div class="inner-box">');
-
-                            filter_result += ('<div class="image">');
-                            filter_result += ('<a href="' + trainer.href + '">');
-                            filter_result += ('<img loading="lazy" class="transition-500ms" style="height: 300px" src="' + trainer.profile + '" alt="' + trainer.name + '"/>');
-                            filter_result += ('</a>');
-                            filter_result += ('<div class="designation">مدرب معتمد</div>');
-                            filter_result += ('</div>');
-
-                            filter_result += ('<div class="lower-content">');
-                            filter_result += ('<h5><a href="' + trainer.href + '">' + trainer.name);
-                            filter_result += ('</h5></a>');
-
-                            filter_result += ('<ul class="social-box">');
-                            if (trainer.trainer_facebook == null) {
-                                filter_result += ('<li>' +
-                                    '<a href="' + trainer.facebook + '" class="fa fa-facebook-f disabled-link "');
-                            } else {
-                                filter_result += ('<li>' +
-                                    '<a href="' + trainer.facebook + trainer.trainer_facebook + '" class="fa fa-facebook-f"');
-
-                            }
-                            filter_result += ('</a>');
-                            filter_result += ('</li>');
-
-                            if (trainer.trainer_twitter == null) {
-                                filter_result += ('<li>' +
-                                    '<a href="' + trainer.twitter + '" class="fa fa-twitter disabled-link "');
-                            } else {
-                                filter_result += ('<li>' +
-                                    '<a href="' + "'/'" + trainer.twitter + trainer.trainer_twitter + '" class="fa fa-twitter"');
-
-                            }
-
-                            filter_result += ('</a>');
-                            filter_result += ('</li>');
-
-
-                            if (trainer.linkedin == null) {
-                                filter_result += ('<li>' +
-                                    '<a href="' + trainer.linkedin + '" class="fa fa-linkedin disabled-link "');
-                            } else {
-                                filter_result += ('<li>' +
-                                    '<a href="' + "'/'" + trainer.linkedin + trainer.linkedin + '" class="fa fa-linkedin"');
-
-                            }
-                            filter_result += ('</a>');
-                            filter_result += ('</li>');
-
-                            filter_result += ('<li>' +
-                                '<a href="mailto:' + trainer.email + '" class="fa fa-envelope"');
-                            filter_result += ('</a>');
-                            filter_result += ('</li>');
-
-                            filter_result += ('</ul>');
-
-                            filter_result += ('</div>');
-
-                            filter_result += ('</div>');
-                            filter_result += ('</div>');
-                        });
-
-                        $("#profile-list-container").html(filter_result);
-                        $("#profile-list-container").fadeIn(600);
-                    } else {
-                        // Empty result
-                        $("#profile-list-container").fadeOut(0);
-                        $("#profile-list-container").empty();
-                        filter_result += ('<div class="mentor-block col-lg-12 col-md-12 col-sm-12">');
-                        filter_result += ('<div class="inner-box text-warning text-center">');
-
-                        filter_result += ('<div class="lower-content">');
-                        filter_result += ('<h5> لا توجد نتائج تطابق المطلوب...');
-                        filter_result += ('</h5>');
-                        filter_result += ('</div>');
-
-                        filter_result += ('</div>');
-                        filter_result += ('</div>');
-
-                        $("#profile-list-container").html(filter_result);
-                        $("#profile-list-container").fadeIn(600);
-                    }
-                }
-            });
-        });
-        /* End: Delete item */
-    });
-</script>
                 <!--=====================================================================-->
                 <!-- Main Footer / Style Two -->
 
@@ -2860,7 +1777,7 @@
                                                                     href="#">الشروط
                                                                     والأحكام</a></li>
                                                             <li><a
-                                                                    href="/contact.html">التواصل</a></li>
+                                                                    href="https://nctl.scu.eg/contact">التواصل</a></li>
 
                                                         </ul>
                                                     </div>
@@ -2902,40 +1819,36 @@
                                         </div>
 
                                         <!-- Footer Column -->
+                                         <div
+                                        class="footer-column col-lg-6 col-md-6 col-sm-12">
                                         <div
-                                            class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                            class="footer-widget newsletter-widget">
+                                            <h5>النشرة البريدية</h5>
+                                            <!-- Newsletter Form / Style Two -->
                                             <div
-                                                class="footer-widget newsletter-widget">
-                                                <h5>النشرة البريدية</h5>
-                                                <!-- Newsletter Form / Style Two -->
-                                                <div
-                                                    class="newsletter-form style-two">
+                                                class="newsletter-form style-two">
 
-                                                    <form id="subscribe"
-                                                        name="subscribe">
+                                                <form id="subscribe"
+                                                    name="subscribe">
 
-                                                        <div class="form-group">
-                                                            <i
-                                                                class="fa-solid fa-envelope"></i>
-                                                            <input type="email"
-                                                                autocomplete="true"
-                                                                id="email"
-                                                                name="email"
-                                                                value
-                                                                placeholder="البريد الإلكتروني"
-                                                                required />
-                                                            <button disabled
-                                                                type="button"
-                                                                id="btn_subscribe"
-                                                                class="theme-btn submit-btn">اشترك
-                                                                الآن<i
-                                                                    class="fa fa-arrow-left"
-                                                                    aria-hidden="true"></i></button>
-                                                        </div>
-                                                    </form>
+                                                    <div class="form-group">
+                                                        <i class="fa-solid fa-envelope"></i>
+                                                        <input type="email"
+                                                            autocomplete="true"
+                                                            id="email"
+                                                            name="email" value
+                                                            placeholder="البريد الإلكتروني"
+                                                            required />
+                                                        <button disabled
+                                                            type="button"
+                                                            id="btn_subscribe"
+                                                            class="theme-btn submit-btn">اشترك
+                                                            الآن<i class="fa fa-arrow-left" aria-hidden="true"></i>
+</button>
+                                                    </div>
+                                                </form>
 
-                                                    <script
-                                                        type="text/javascript">
+                                                <script type="text/javascript">
                                         let url = location.origin == "http://localhost" ? "http://localhost/nctl-project" : location.origin;
                                         let btnSubscribe = document.getElementById('btn_subscribe');
                                         let action = url + '/subscribe';
@@ -3031,9 +1944,10 @@
                                             inpEmail.addEventListener("change", checkInputChange);
                                         }
                                     </script>
-                                                </div>
                                             </div>
                                         </div>
+                                    </div>
+
 
                                     </div>
                                 </div>
@@ -3082,7 +1996,7 @@
                             class="flaticon-up-arrow"></span></button>
                     <form method="post" action="https://nctl.scu.eg/search">
                         <input type="hidden" name="_token"
-                            value="kIFkoTgpP3WzO6SxN76mBvSL2OI9v2Qk2Xogx4E5"
+                            value="XSgtBZ5rM8MG7ochFMt0ul0LxucNanVLbtooBllu"
                             autocomplete="off"> <div class="form-group">
                             <input type="search" name="search" value
                                 placeholder="ابحث عن ..." required>

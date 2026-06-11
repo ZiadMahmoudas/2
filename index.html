@@ -37,7 +37,9 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
             rel="stylesheet">
-
+<link href="
+https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons@3.3.1/css/all/all.min.css
+" rel="stylesheet">
         <!-- Favicon -->
         <link rel="shortcut icon"
             href="https://nctl.scu.eg/assets/template/images/favicon-32.ico"
@@ -66,8 +68,17 @@
         <!-- CRITICAL INLINE CSS - Prevents FOUC (Flash of Unstyled Content) -->
         <style>
         /* === AGGRESSIVE FOUC PREVENTION === */
-.flaticon-menu-1:before {
-    content: "\f12c";
+.form-group i {
+    position: relative;
+    font-size: 18px;
+    top: 41px;
+    color: #666;
+    left: -7%;
+    z-index: 55;
+}
+.form-group i.fa-arrow-left{
+    left: -10%;
+    top: -0px;
 }
         /* Reset all elements */
         * {
@@ -2158,8 +2169,7 @@
                                         </div>
                                     </div>
                                     <a href="https://nctl.scu.eg/register"
-                                        class="read-more">تفاصيل أكثر <span
-                                            class="flaticon-left-arrow-1"></span></a>
+                                        class="read-more">تفاصيل أكثر <span><i class="bi bi-arrow-left"></i></span></a>
                                 </div>
                             </div>
                             <!-- Service Block Two -->
@@ -2186,8 +2196,7 @@
                                         </div>
                                     </div>
                                     <a href="https://nctl.scu.eg/register"
-                                        class="read-more">تفاصيل أكثر <span
-                                            class="flaticon-left-arrow-1"></span></a>
+                                        class="read-more">تفاصيل أكثر <span><i class="bi bi-arrow-left"></i></span></a>
                                 </div>
                             </div>
 
@@ -2213,8 +2222,7 @@
                                         </div>
                                     </div>
                                     <a href="https://nctl.scu.eg/register"
-                                        class="read-more">تفاصيل أكثر <span
-                                            class="flaticon-left-arrow-1"></span></a>
+                                        class="read-more">تفاصيل أكثر <span><i class="bi bi-arrow-left"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -2433,18 +2441,17 @@
                                 <div class="circle-one"></div>
                                 <div class="circle-two"></div>
                                 <a
-                                    href="https://nctl.scu.eg/trainer/profile/2601175">
+                                    href="/trainer/profile/mohamedmohamed.html">
                                     <div class="icon">
 
                                         <img class="recent_trainer"
                                             loading="lazy"
-                                            src="https://nctl.scu.eg/assets/uploads/formal-profiles/2601175.jpg"
+                                            src="images/Mohammed-Mohammed.webp"
                                             alt="المركز القومي للتدريب وإعداد القيادات" />
                                     </div>
                                 </a>
                                 <h5><a class="trainer_name"
-                                        href="https://nctl.scu.eg/trainer/profile/2601175">ليندا
-                                        نبيل</a></h5>
+                                        href="https://nctl.scu.eg/trainer/profile/2601175">محمد محمد عبد السلام هلالي</a></h5>
 
                             </div>
 
@@ -3716,6 +3723,9 @@
             <!-- Icons -->
             <script src="https://unpkg.com/feather-icons/dist/feather.min.js"
                 defer></script>
+                <script src="
+https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons@3.3.1/license.min.js
+"></script>
             <!-- <script>
     feather.replace()
 </script> -->

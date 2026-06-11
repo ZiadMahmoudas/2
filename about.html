@@ -45,9 +45,21 @@
     <!-- CRITICAL INLINE CSS - Prevents FOUC (Flash of Unstyled Content) -->
     <style>
         /* === AGGRESSIVE FOUC PREVENTION === */
-.flaticon-menu-1:before {
-    content: "\f12c";
+
+
+.form-group i {
+    position: relative;
+    font-size: 18px;
+    top: 41px;
+    color: #666;
+    left: -7%;
+    z-index: 55;
 }
+.form-group i.fa-arrow-left{
+    left: -10%;
+    top: -0px;
+}
+
         /* Reset all elements */
         * {
             margin: 0;
@@ -1426,7 +1438,7 @@
                         <div class="feature-block-three col-lg-4 col-md-6 col-sm-12">
                             <div class="block-inner">
                                 <div class="inner-content">
-                                    <span class="icon flaticon-home"></span>
+                                    <span class="icon"><i class="bi bi-house-door"></i></span>
                                     <strong>الجهة التابعة</strong>
                                     المجلس الأعلي للجامعات
                                 </div>
@@ -1437,7 +1449,7 @@
                         <div class="feature-block-three col-lg-4 col-md-6 col-sm-12">
                             <div class="block-inner">
                                 <div class="inner-content">
-                                    <span class="icon flaticon-calendar"></span>
+                                    <span class="icon "><i class="bi bi-calendar"></i></span>
                                     <strong>تاريخ التأسيس</strong>
                                     12 ديسمبر 2023
                                 </div>
@@ -1448,7 +1460,7 @@
                         <div class="feature-block-three col-lg-4 col-md-6 col-sm-12">
                             <div class="block-inner">
                                 <div class="inner-content">
-                                    <span class="icon flaticon-tag"></span>
+                                    <span class="icon"><i class="bi bi-tag-fill"></i></span>
                                     <strong>التصنيف</strong>
                                     تدريب, اعتماد
                                 </div>

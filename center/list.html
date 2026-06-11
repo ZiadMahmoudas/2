@@ -44,9 +44,17 @@
 
     <!-- CRITICAL INLINE CSS - Prevents FOUC (Flash of Unstyled Content) -->
     <style>
-        /* === AGGRESSIVE FOUC PREVENTION === */
-.flaticon-menu-1:before {
-    content: "\f12c";
+.form-group i {
+    position: relative;
+    font-size: 18px;
+    top: 41px;
+    color: #666;
+    left: -7%;
+    z-index: 55;
+}
+.form-group i.fa-arrow-left{
+    left: -10%;
+    top: -0px;
 }
         /* Reset all elements */
         * {
